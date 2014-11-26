@@ -118,7 +118,6 @@ call vundle#begin()
 call vundle#rc(expand('$DOTVIM/bundle'))
 
 Plugin 'gmarik/Vundle.vim'
-Plugin 'tomasr/molokai'
 Plugin 'scrooloose/nerdtree'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'pangloss/vim-javascript'
@@ -139,7 +138,7 @@ if !exists('g:colors_name') && !has('gui_running')
  set t_Co=256
 elseif has('gui_running')
  set background=dark
- colorscheme molokai
+ colorscheme desert
  set guioptions-=T
 " set guioptions-=m
 
